@@ -1,0 +1,735 @@
+body {
+	font-family: Helvetica;
+  }
+.mediaViewInfo {
+	--web-view-name: Sign up;
+	--web-view-id: Sign_up;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Sign_up;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Sign_up {
+	position: absolute;
+	width: 1920px;
+	height: 2637px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Sign up;
+	--web-view-id: Sign_up;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_84 {
+	opacity: 0.53;
+	filter: blur(26px);
+	fill: rgba(145,22,176,0.169);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_84 {
+	position: absolute;
+	overflow: visible;
+	width: 443px;
+	height: 229px;
+	left: 1104px;
+	top: 2148px;
+}
+#hoco {
+	opacity: 0.28;
+	position: absolute;
+	width: 1993.875px;
+	height: 2230.417px;
+	left: -986.937px;
+	top: 213.25px;
+	overflow: visible;
+}
+#Welcome {
+	left: 198px;
+	top: 392px;
+	position: absolute;
+	overflow: visible;
+	width: 1072px;
+	white-space: nowrap;
+	text-align: left;
+	/*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: bold;
+	font-size: 178px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.71px;
+}
+#Your_voice_matters_Go_and_use_ {
+	left: 72px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 446px;
+	white-space: nowrap;
+	text-align: left;
+	/*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(158,103,210,1);
+	letter-spacing: 0.45px;
+}
+#amplause_green {
+	position: absolute;
+	width: 457px;
+	height: 257px;
+	left: 32px;
+	top: 26px;
+	overflow: visible;
+}
+#Were_so_glad_youre_here {
+	left: 221px;
+	top: 612px;
+	position: absolute;
+	overflow: visible;
+	width: 1457px;
+	white-space: nowrap;
+	text-align: left;
+	/*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: normal;
+	font-size: 78px;
+	color: rgba(0,177,89,1);
+	letter-spacing: 0.71px;
+}
+#To_begin_your_journey_tell_us_ {
+	left: 221px;
+	top: 733px;
+	position: absolute;
+	overflow: visible;
+	width: 1234px;
+	white-space: nowrap;
+	text-align: left;
+	/*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: normal;
+	font-size: 65px;
+	color: rgba(0,177,89,1);
+	letter-spacing: 0.71px;
+}
+
+#signupbox{
+  width: 788px;
+  padding: 25px 20px;
+  margin: 45px 0;
+  box-sizing: border-box;
+  border: 5px solid rgba(245,246,246,1);
+  border-radius: 5px;
+  background-color: rgba(145,22,176,0.051);
+  color: rgba(175,96,249,0.549);
+
+  /*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+  
+}
+div.absolute {
+	position: absolute;
+	left: 1066px;
+	top: 924px;
+  } 
+#signupbox:focus{
+	border: 6px solid rgba(175,96,249,0.549);
+	stroke: rgba(175,96,249,0.549);
+	stroke-width: 1px;
+}
+
+#signupbutton{
+	background-color:rgba(193,90,220,1);
+	font-size: 37px;text-align: center;
+	/*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.7px;
+	
+	color: white;
+  	border: 5px solid rgba(245,246,246,1);
+	left:1066px;
+	top: 2126px;
+	position: absolute;
+	width: 359px;
+	height: 119px;
+	border-radius: 4px;
+}
+
+::placeholder {
+	color: rgba(175,96,249,0.549);
+	
+  }
+#Rectangle_70 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_70 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 924px;
+}
+/*#First_Name_Required {
+	left: 1138px;
+	top: 963px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_71 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_71 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 1086px;
+}
+#Last_Name_Required {
+	left: 1138px;
+	top: 1126px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_72 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_72 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1067px;
+	top: 1252px;
+}
+#Preferred_First_Name_bd {
+	left: 1137px;
+	top: 1290px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_73 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_73 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1067px;
+	top: 1570px;
+}
+#Student_ID_Required {
+	left: 1137px;
+	top: 1608px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_82 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_82 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 1733px;
+}
+#Rectangle_78 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_78 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1067px;
+	top: 1896px;
+}
+#Email_Address_Required {
+	left: 1137px;
+	top: 1772px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Parent_Email_Address_Required {
+	left: 1137px;
+	top: 1935px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_83 {
+	fill: rgba(228,186,239,1);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_83 {
+	position: absolute;
+	overflow: visible;
+	width: 359px;
+	height: 119px;
+	left: 1066px;
+	top: 2088px;
+}
+#Submit_bl {
+	left: 1173px;
+	top: 2126px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.7px;
+}
+#Rectangle_85 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_85 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 1409px;
+}
+#School_Required {
+	left: 1136px;
+	top: 1447px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_86 {
+	opacity: 0.53;
+	filter: blur(26px);
+	fill: rgba(145,22,176,0.169);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_86 {
+	position: absolute;
+	overflow: visible;
+	width: 443px;
+	height: 229px;
+	left: 1104px;
+	top: 2148px;
+}
+#Rectangle_87 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_87 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 924px;
+}
+#First_Name_ {
+	left: 1138px;
+	top: 963px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_88 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_88 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 1086px;
+}
+#Last_Name_ {
+	left: 1138px;
+	top: 1126px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_89 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_89 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1067px;
+	top: 1252px;
+}
+#Preferred_First_Name_bd {
+	left: 1137px;
+	top: 1290px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_90 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_90 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1067px;
+	top: 1570px;
+}
+#Student_ID {
+	left: 1137px;
+	top: 1608px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_91 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_91 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 1733px;
+}
+#Rectangle_92 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_92 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1067px;
+	top: 1896px;
+}
+#Email_Address {
+	left: 1137px;
+	top: 1772px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Parent_Email_Address {
+	left: 1137px;
+	top: 1935px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}
+#Rectangle_93 {
+	fill: rgba(193,90,220,1);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_93 {
+	position: absolute;
+	overflow: visible;
+	width: 359px;
+	height: 119px;
+	left: 1066px;
+	top: 2088px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Sign_Up_With_Info.html;
+	cursor: pointer;
+}
+#Submit_bl {
+	left: 1173px;
+	top: 2126px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.7px;
+}
+#Rectangle_94 {
+	fill: rgba(145,22,176,0.051);
+	stroke: rgba(245,246,246,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_94 {
+	position: absolute;
+	overflow: visible;
+	width: 788px;
+	height: 119px;
+	left: 1066px;
+	top: 1409px;
+}
+#School_ {
+	left: 1136px;
+	top: 1447px;
+	position: absolute;
+	overflow: visible;
+	width: 802px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(175,96,249,0.549);
+	letter-spacing: 0.45px;
+}*/
+#Personal_Information {
+	left: 1067px;
+	top: 862px;
+	position: absolute;
+	overflow: visible;
+	width: 486px;
+	white-space: nowrap;
+	text-align: left;
+	/*font-family: Neue Haas Grotesk Display Pro;*/
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(175,96,249,0.859);
+	letter-spacing: 0.71px;
+}
